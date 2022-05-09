@@ -1,0 +1,172 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body
+{
+   width: 100%;
+   height: 100vh;
+   background-image: url('../img/fbg.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/*------------- Form ---------------*/
+.R-cbox
+{
+	width: 600px;
+	height: 700px;
+    background-color: #16a085;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,10);
+}
+.container
+{
+	position: absolute;
+	padding: 60px;
+
+}
+#input1
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-top: 20px;
+	outline: none;
+}
+#input2
+{
+
+	width: 50%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-top: 25px;
+	outline: none;
+}
+#input3
+{
+	width: 47%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-left: 10px;
+	margin-top: 25px;
+	outline: none;
+}
+#input4
+{
+	width: 100%;
+	height: 60px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-top: 25px;
+	outline: none;
+}
+#input5
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-top: 25px;
+	outline: none;
+}
+#input6
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-top: 25px;
+	outline: none;
+}
+#input7
+{
+	width: 50%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-top: 25px;
+	outline: none;
+}
+#input8
+{
+	width: 47%;
+	height: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	font-family: sans-serif;
+	font-size: 13px;
+	padding: 10px;
+	border: none;
+	margin-left: 10px;
+	margin-top: 25px;
+	outline: none;
+}
+button
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 25px;
+	border: none;
+	background-color: #0652DD;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	margin-bottom: 20px;
+	outline: none;
+}
+button a
+{
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+
+}
+span
+{
+   font-family: sans-serif;
+   font-size: 15px;
+   margin-left: 5px;
+}
+#atag
+{
+	color: red;
+	text-decoration: none;
+}
+
+
+
+/*------------- End CSS ------------*/

@@ -1,0 +1,113 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body
+{
+    width: 100%;
+    height: 100vh;	
+    position: relative; 
+    background-image: url('../img/formbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*----------- Login -----------*/
+.login-cbox
+{
+    width: 420px;
+	height: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 10px;
+	box-shadow: 0 0 30px rgba(0,0,0,5);
+}
+.container{
+	width: 370px;
+	height: 310px;
+	position: absolute;
+	background-color: rgba(255,255,255,0,2);
+	margin-top: 70px;
+	margin-left: 30px;
+}
+label{
+	font-size: 40px;
+    margin-left: 35px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: red;
+	/*color: rgb(19,192,215);*/
+}
+span{
+	font-family: Georgia;
+	padding-top: 15px;
+}
+.main{
+	font-size: 20px;
+
+}
+.main td{
+	text-align: center;
+}
+.main img{
+	position: center;
+}
+p{
+	text-align: center;
+}
+input{
+	width: 330px;
+	height: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 15px;
+	border-radius: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 9px rgba(0,0,0,0.2);
+}
+.container a
+{
+	font-family: sans-serif;
+	font-size: 15px;
+	float: right;
+	margin-right: 30px;
+	color: #32ff7e;
+}
+.btn{
+	width: 330px;
+	height: 35px;
+	margin-left: 17px;
+	margin-top: 20;
+	border-radius: 5px;
+	font-family: Georgia;
+	font-size: 21px;
+	background-color: #0ed067;
+	cursor: pointer;
+	border: none;
+	outline: none;
+
+}
+.btn a
+{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 140px;
+	color: blue;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	margin-left: 150px; 
+}
+
+
+
+/*----------- End CSS ----------*/
